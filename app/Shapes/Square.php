@@ -2,7 +2,7 @@
 
 namespace App\Shapes;
 
-class Square
+class Square implements ShapeInterface
 {
     private $dim;
 

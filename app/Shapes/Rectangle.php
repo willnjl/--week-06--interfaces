@@ -2,7 +2,7 @@
 
 namespace App\Shapes;
 
-class Rectangle
+class Rectangle implements ShapeInterface
 {
     private $w;
     private $h;
