@@ -11,12 +11,12 @@ class Challenges
         echo "\nChallenges\n";
 
         // load challenges
-        $this->shapes();
-        $this->extrude();
-        $this->library();
+        // $this->shapes();
+        // $this->extrude();
+        // $this->library();
 
-        // $tricksy = new Tricksy();
-        // $tricksy->start();
+        $tricksy = new Tricksy();
+        $tricksy->start();
     }
 
     public function shapes()
